@@ -1,0 +1,22 @@
+version: 1
+
+env:
+  - CGO_ENABLED=0
+flags:
+  - -trimpath
+  - -tags=netgo
+
+goos: linux # GOOS
+goarch: amd64 # GOARCH
+
+# Binary output name.
+# {{ .Os }} will be replaced by goos field in the config file.
+# {{ .Arch }} will be replaced by goarch field in the config file.
+binary: podsalsa-{{ .Os }}-{{ .Arch }}
+
+ldflags:
+  - "-s"
+  - "-w"
+  - "-X main.Version={{ .Env.VERSION }}"
+  - "-X main.Commit={{ .Env.COMMIT }}"
+  - "-X main.BuildTime={{ .Env.COMMIT_DATE }}"
