@@ -13,8 +13,8 @@ This guide describes how to deploy Dependency-Track with the sbom-operator in a 
 Clone the repository and navigate to the deployment folder.
 
 ```bash
-git clone git@github.com:janfuhrer/podsalsa.git
-# https: git clone https://github.com/janfuhrer/podsalsa.git
+git clone git@github.com:sahma19/podsalsa.git
+# https: git clone https://github.com/sahma19/podsalsa.git
 
 cd podsalsa/docs/component-analysis/dependency-track/deployment
 ```

@@ -1,6 +1,6 @@
 services:
   podsalsa:
-    image: ghcr.io/janfuhrer/podsalsa:latest
+    image: ghcr.io/sahma19/podsalsa:latest
     container_name: podsalsa
     user: '65532'
     restart: unless-stopped

@@ -4,7 +4,7 @@ predicateType: "https://cyclonedx.org/bom"
 predicate: {
   metadata: {
     component: {
-      "bom-ref": =~"^pkg:golang/github.com/janfuhrer/podsalsa@v[0-9]+.[0-9]+.[0-9]+(-rc.[0-9]+)?\\?type=module$"
+      "bom-ref": =~"^pkg:golang/github.com/sahma19/podsalsa@v[0-9]+.[0-9]+.[0-9]+(-rc.[0-9]+)?\\?type=module$"
     }
   }
 }

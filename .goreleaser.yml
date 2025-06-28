@@ -65,11 +65,11 @@ release:
   prerelease: auto
   draft: true
   footer: |
-    **Full Changelog**: https://github.com/janfuhrer/{{ .ProjectName }}/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/sahma19/{{ .ProjectName }}/compare/{{ .PreviousTag }}...{{ .Tag }}
 
     **Docker Images**
-    - `ghcr.io/janfuhrer/{{ .ProjectName }}:v{{ .Version }}`
-    {{ if not .Prerelease }}- `ghcr.io/janfuhrer/{{ .ProjectName }}:latest`{{ end }}
+    - `ghcr.io/sahma19/{{ .ProjectName }}:v{{ .Version }}`
+    {{ if not .Prerelease }}- `ghcr.io/sahma19/{{ .ProjectName }}:latest`{{ end }}
 
 # github changelog for new release
 changelog:
