@@ -97,7 +97,11 @@ func main() {
 	srv, _ := http.NewServer(&srvCfg, logger)
 	httpServer := srv.ListenAndServe(channel)
 	if httpServer != nil {
-		defer httpServer.Close()
+		defer func() {
+			if err := httpServer.Close(); err != nil {
+				logger.Warn("failed to close http server", "err", err)
+			}
+		}()
 	}
 
 	// wait for shutdown signal
