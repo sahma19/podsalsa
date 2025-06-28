@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/janfuhrer/podsalsa/pkg/http"
+	"github.com/sahma19/podsalsa/pkg/http"
 )
 
 // These variables are set in build step
