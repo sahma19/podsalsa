@@ -1,0 +1,54 @@
+header:
+  schema-version: 1.0.0
+  expiration-date: '2025-12-27T10:00:00.000Z'
+  last-updated: '2024-04-28'
+  last-reviewed: '2024-12-27'
+  project-url: https://github.com/sahma19/podsalsa
+  changelog: https://github.com/sahma19/podsalsa/blob/main/CHANGELOG.md
+  license: https://github.com/sahma19/podsalsa/blob/main/LICENSE
+project-lifecycle:
+  bug-fixes-only: false
+  core-team:
+    - name: sahma19
+      contact: sahma19@mailbox.org
+  status: concept
+contribution-policy:
+  accepts-pull-requests: true
+  accepts-automated-pull-requests: true
+  contributing-policy: https://github.com/sahma19/podsalsa/blob/main/CONTRIBUTING.md
+  code-of-conduct: https://github.com/sahma19/podsalsa/blob/main/CODE_OF_CONDUCT.md
+distribution-points:
+  - https://github.com/sahma19/podsalsa/releases
+  - https://github.com/sahma19?tab=packages&repo_name=podsalsa
+security-testing:
+- tool-type: sca
+  tool-name: Dependabot
+  tool-version: latest
+  integration:
+    ad-hoc: false
+    ci: true
+    before-release: true
+  comment: |
+    Dependabot is enabled for this repo.
+security-contacts:
+- type: email
+  value: sahma19@mailbox.org
+  primary: true
+vulnerability-reporting:
+  accepts-vulnerability-reports: true
+  bug-bounty-available: false
+  email-contact: sahma19@mailbox.org
+  security-policy: https://github.com/sahma19/podsalsa/blob/main/SECURITY.md
+  comment: |
+    Report security vulnerabilities via GitHub Security Advisory in this repository.
+dependencies:
+  third-party-packages: true
+  dependencies-lists:
+  - https://github.com/sahma19/podsalsa/blob/main/go.mod
+  sbom:
+  - sbom-file: https://github.com/sahma19/podsalsa/releases
+    sbom-format: CycloneDX
+    sbom-url: https://github.com/sahma19/podsalsa/blob/main/SECURITY.md#sbom
+  - sbom-file: https://github.com/sahma19/podsalsa/pkgs/container/sbom
+    sbom-format: CycloneDX
+    sbom-url: https://github.com/sahma19/podsalsa/blob/main/SECURITY.md#sbom

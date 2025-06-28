@@ -1,0 +1,10 @@
+services:
+  podsalsa:
+    image: ghcr.io/sahma19/podsalsa:latest
+    container_name: podsalsa
+    user: '65532'
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - PODSALSA_LEVEL=debug
