@@ -6,8 +6,7 @@
 [![release](https://img.shields.io/github/v/release/sahma19/podsalsa)](https://github.com/sahma19/podsalsa/releases)
 [![go-version](https://img.shields.io/github/go-mod/go-version/sahma19/podsalsa)](https://github.com/sahma19/podsalsa/blob/main/go.mod)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sahma19/podsalsa)](https://goreportcard.com/report/github.com/sahma19/podsalsa)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B44203%2Fgithub.com%2Fsahma19%2Fpodsalsa.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B44203%2Fgithub.com%2Fsahma19%2Fpodsalsa?ref=badge_shield&issueType=license)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B44203%2Fgithub.com%2Fsahma19%2Fpodsalsa.svg?type=shield&issueType=security)](https://app.fossa.com/projects/custom%2B44203%2Fgithub.com%2Fsahma19%2Fpodsalsa?ref=badge_shield&issueType=security)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsahma19%2Fpodsalsa.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsahma19%2Fpodsalsa?ref=badge_shield&issueType=security)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
 <p align="center">
